@@ -7,10 +7,10 @@ This repository contain what I'm using to patch Youtube with ReVanced so it does
 The node.js project contain a single command :
 
 ```sh
-npm run build <your_base.apk>
+npm run build <youtube.apk>
 ```
 
-> like `npm run build .\com.google.android.youtube_20.14.43.apk`
+> like `npm run build com.google.android.youtube_20.14.43.apk`
 
 It will apply all the latest patches to the APK, Everything is downloaded automaticaly beside the APK.
 
@@ -23,7 +23,7 @@ Run this command to compile a version of youtube that is stored within the repo 
 > Replace `C:\Program Files\Java\jdk-24.0.2\bin\java.exe` with the location of your jdk binary `.exe`, take note of the compatibility listed in the [CLI documentation](https://github.com/ReVanced/revanced-cli/blob/main/docs/0_prerequisites.md)
 
 ```sh
-& "C:\Program Files\Java\jdk-24.0.2\bin\java.exe" -jar "src/backup/revanced-cli-5.0.1-all.jar" patch -p "src/backup/patches-5.50.2.rvp" -o "build/YouTube_ReVanced.apk" src/backup/youtube_20.14.43.apk
+& "C:\Program Files\Java\jdk-24.0.2\bin\java.exe" -jar "src/backup/revanced-cli-5.0.1-all.jar" patch -p "src/backup/patches-5.50.2.rvp" -o "build/YouTube_ReVanced.apk" <youtube.apk>
 ```
 
 # External downloads
