@@ -1,0 +1,1 @@
+& "C:\Program Files\Java\jdk-24.0.2\bin\java.exe" -jar "src/revanced-cli-5.0.1-all.jar" patch -p "src/patches-5.33.0.rvp" -o "build/YouTube_ReVanced.apk" src/youtubeapk.apk
