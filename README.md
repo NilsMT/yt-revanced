@@ -18,7 +18,7 @@ In case it doesnt work because ReVanced repos got shutdown or something head to 
 
 # Manual compilation
 
-Run this command to compile a version of youtube that is stored within the repo (20.14.43)
+Run this command to compile a version of youtube thatyou downloaded (the version 20.14.43 has been tested)
 
 > Replace `C:\Program Files\Java\jdk-24.0.2\bin\java.exe` with the location of your jdk binary `.exe`, take note of the compatibility listed in the [CLI documentation](https://github.com/ReVanced/revanced-cli/blob/main/docs/0_prerequisites.md)
 
